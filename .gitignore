@@ -1,0 +1,14 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Word lock files. Word writes ~$<name>.docx beside a document while it is open, and a
+# `git add .` with the document open commits it.
+~$*.docx
+~$*.doc
+
+# PDF exported from the DOCX. The DOCX is the copy that is kept.
+*.pdf
